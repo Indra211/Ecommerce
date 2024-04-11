@@ -21,9 +21,9 @@ export const HomeCard = ({name, pic, price, belongs, id}) => {
           }}
         />
       </View>
-      <Text>{name}</Text>
-      <Text>{belongs}</Text>
-      <Text>₹ {price}</Text>
+      <Text style={{color: DefaultColors.black}}>{name}</Text>
+      <Text style={{color: DefaultColors.black}}>{belongs}</Text>
+      <Text style={{color: DefaultColors.black}}>₹ {price}</Text>
     </View>
   );
 };
